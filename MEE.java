@@ -116,7 +116,7 @@ public class MEE {
         int exemplaire;
 
         do {
-            choix = Ut.randomMinMax(0,this.tabFreq.length-1);
+            exemplaire = Ut.randomMinMax(0,this.tabFreq.length-1);
         } while (this.tabFreq[exemplaire]==0);
         
         this.retire(exemplaire);
